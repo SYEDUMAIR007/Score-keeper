@@ -147,3 +147,8 @@ main{
     font-weight: bold;
     
 }
+
+footer a{
+    color: black;
+    font-weight: 900;
+}
