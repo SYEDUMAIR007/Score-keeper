@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <h1 id="head">SCORE KEEPER</h1>
+        <h1 id="names"><input type="text" placeholder="Enter Team 1" id="p1"></input><span id="vs">VS</span><input type="text" placeholder="Enter Team 2" id="p2"></input></h1>
+    <main>
+        <h1 id="scores"><span id="p1Score">00</span><span id="p2Score">00</span></h1>
+        <div id="selectors">
+            <select name="winningScoreSelector" id="winningScoreSelector">
+                <option value="">Winning Score</option>
+                <option value="03">3</option>
+                <option value="05">5</option>
+                <option value="07">7</option>
+                <option value="09">9</option>
+                <option value="11">11</option>
+            </select>
+            <select name="gameSelector" id="gameSelector">
+                <option value="selectGame">Select game</option>
+                <option value="footBall">Football</option>
+                <option value="tennis">Tennis</option>
+                <option value="basketBall">Basketball</option>
+            </select>
+        </div>
+        <div id="button-container">
+            <button id="player1">+1 Player one</button>
+            <button id="reset">Reset</button>
+            <button id="player2">+1 Player two</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
